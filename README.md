@@ -1,1 +1,3 @@
-# NixOS-Admin-VCN
+# NixOS Cloud Administration
+## Overview
+This repository contains configuration files and scripts designed to leverage NixOS for managing a comprehensive virtual cloud computing environment. It also includes localised networking facilities and virtualisation support, enabling efficient management of both cloud-based and on-premise resources. The repository is structured to facilitate collaborative administration among team members with distinct roles, allowing them to manage cloud resources, configure and maintain services, and oversee the infrastructure in a seamless and secure manner. By integrating these configurations, the repository ensures that your virtualised network environment is robust, flexible, and scalable, while providing the necessary tools and workflows to maintain an efficient and secure operational environment.
