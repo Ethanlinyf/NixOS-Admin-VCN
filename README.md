@@ -137,4 +137,4 @@ If you encounter any issues, please report them using the issue tracker. Include
 
 ## License
 
-This project is licensed under the MIT License. See the LICENSE file for more details.
+This project is licensed under the MIT License. See the [LICENSE](https://opensource.org/license/mit) file for more details.
