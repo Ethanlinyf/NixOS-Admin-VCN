@@ -1,0 +1,10 @@
+[Unit]
+Description=Run DuckDNS local-IP update every 5 minutes
+
+[Timer]
+OnBootSec=5min
+OnUnitActiveSec=5min
+Persistent=true
+
+[Install]
+WantedBy=timers.target

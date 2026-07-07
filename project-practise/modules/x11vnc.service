@@ -1,0 +1,15 @@
+[Unit]
+Description=x11vnc VNC Server for XFCE
+After=lightdm.service
+Wants=lightdm.service
+
+[Service]
+Type=simple
+ExecStartPre=/bin/sleep 15
+ExecStart=/usr/bin/x11vnc -display :0 -auth /var/run/lightdm/root/:0 -forever -shared -rfbauth /root/.vnc/passwd -rfbport 5900 -clip -noxdamage -ncache 10 -repeat
+Restart=always
+RestartSec=8
+User=root
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,8 @@
+[Unit]
+Description=Update DuckDNS with local LAN IP
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/etc/nixdeploy/modules/duckdns-local-ip-update.sh

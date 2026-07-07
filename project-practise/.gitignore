@@ -1,0 +1,13 @@
+# Dynamic/machine-specific files (never commit)
+hosts/*/hardware-configuration.nix
+
+# grok helper files
+mcps/
+
+# Secrets
+secrets/
+
+# Nix build artifacts
+result*
+*.nix~
+*.log
